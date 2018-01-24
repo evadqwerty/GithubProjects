@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_stratpoint_javajunior_Person" object="${person}" path="/people" z="v2ZyeJW2QpiyzmQ3TAlmGkxpc0A=">
+        <field:display field="id" id="s_com_stratpoint_javajunior_Person_id" object="${person}" z="C2NWgqm/l0j1wYnRgp+4SHMw5Ec="/>
+        <field:display field="active" id="s_com_stratpoint_javajunior_Person_active" object="${person}" z="rPjz9I/OCcPlFrP0lMyysLdtESM="/>
+        <field:display field="blocked" id="s_com_stratpoint_javajunior_Person_blocked" object="${person}" z="DeyfDoEgZAGNfVHcG4XS6gmJ0Sg="/>
+        <field:display field="balance" id="s_com_stratpoint_javajunior_Person_balance" object="${person}" z="KXNCfTMmzZFI5+HZIDv/jgERN7s="/>
+        <field:display field="picture" id="s_com_stratpoint_javajunior_Person_picture" object="${person}" z="YNAI9N5NOL+H9XE97cW01JZb370="/>
+        <field:display field="age" id="s_com_stratpoint_javajunior_Person_age" object="${person}" z="u1yoyJNirErIXqWMSjbou9GhQnE="/>
+        <field:display field="firstName" id="s_com_stratpoint_javajunior_Person_firstName" object="${person}" z="3gLGPdc378CGkF5zuRsftBasg2Q="/>
+        <field:display field="middleName" id="s_com_stratpoint_javajunior_Person_middleName" object="${person}" z="ApjLoGkB/0MOKY3CZ9nPeWoeUl8="/>
+        <field:display field="lastName" id="s_com_stratpoint_javajunior_Person_lastName" object="${person}" z="0Qg5Ky4F4cuuf4AR2DK2C4PFqys="/>
+        <field:display field="email" id="s_com_stratpoint_javajunior_Person_email" object="${person}" z="1+JzhPxMjYJASLMWRmTpnKetxvY="/>
+        <field:display field="phone" id="s_com_stratpoint_javajunior_Person_phone" object="${person}" z="Jeb+ADEOpy7cQvkbvdCieYX49VI="/>
+        <field:display field="address" id="s_com_stratpoint_javajunior_Person_address" object="${person}" z="3HhU7ZRlGx0OGn7Opz/vWqoumF0="/>
+        <field:display field="profile" id="s_com_stratpoint_javajunior_Person_profile" object="${person}" z="ZD9AiYQJ1NDaENZLgmASBAK80xQ="/>
+        <field:display date="true" dateTimePattern="${person_date_registered_date_format}" field="date_registered" id="s_com_stratpoint_javajunior_Person_date_registered" object="${person}" z="q9YvciE0WIWXnELI2WHyKATBSUE="/>
+    </page:show>
+</div>

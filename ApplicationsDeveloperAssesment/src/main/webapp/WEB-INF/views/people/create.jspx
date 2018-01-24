@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_stratpoint_javajunior_Person" modelAttribute="person" path="/people" render="${empty dependencies}" z="j5nJapgd3iUU9CgbNj8VT3lVewI=">
+        <field:input field="id" id="c_com_stratpoint_javajunior_Person_id" z="m7RqplryoPIUFkB9WlWi61RNzo0="/>
+        <field:checkbox field="active" id="c_com_stratpoint_javajunior_Person_active" z="bHQI2sm10Dg05AZ0pMOd5Ds8Tq0="/>
+        <field:checkbox field="blocked" id="c_com_stratpoint_javajunior_Person_blocked" z="l9A/29iacbkk3adEpYFjBPP3tQ0="/>
+        <field:input field="balance" id="c_com_stratpoint_javajunior_Person_balance" z="qjtRpMHojQQpsfR+Ho3M6IW+HKk="/>
+        <field:input field="picture" id="c_com_stratpoint_javajunior_Person_picture" z="kEP/mdW/lx8WMRoTgM2dnQ2w2qg="/>
+        <field:input field="age" id="c_com_stratpoint_javajunior_Person_age" validationMessageCode="field_invalid_integer" z="MyRAAsM2YmiLHSQ8IAi1C0Q2CsQ="/>
+        <field:input field="firstName" id="c_com_stratpoint_javajunior_Person_firstName" z="ZU8NF8VRVUcvSTAbQ7ZfFFRYQ+U="/>
+        <field:input field="middleName" id="c_com_stratpoint_javajunior_Person_middleName" z="nxV9LBbZvpZmWZeNWiQj0wHA4HU="/>
+        <field:input field="lastName" id="c_com_stratpoint_javajunior_Person_lastName" z="Ce2d8muxIyrH74ruObHjKaddX7Q="/>
+        <field:input field="email" id="c_com_stratpoint_javajunior_Person_email" validationMessageCode="field_invalid_email" z="y3e/ygYUGOobMN4BwLV49YOR5Ms="/>
+        <field:input field="phone" id="c_com_stratpoint_javajunior_Person_phone" z="SYabv3Wy84nn/ciM0JeXYQG5SPM="/>
+        <field:input field="address" id="c_com_stratpoint_javajunior_Person_address" z="AUYVvkuL2dvlPImRLAMifKZVZrw="/>
+        <field:input field="profile" id="c_com_stratpoint_javajunior_Person_profile" z="S8cauJq0G3uJcKv/7A/TXh44Hdo="/>
+        <field:datetime dateTimePattern="${person_date_registered_date_format}" field="date_registered" id="c_com_stratpoint_javajunior_Person_date_registered" z="iAIE9QUl6uAcsTpS8gT3zI1UIXw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_stratpoint_javajunior_Person" render="${not empty dependencies}" z="L9w25mi+emJT/QgJ2FeobCLtNTs="/>
+</div>

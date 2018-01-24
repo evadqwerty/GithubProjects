@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_stratpoint_javajunior_Person" items="${people}" z="5JfDZiy6ftm7UQV70m9O/RE1uNw=">
+        <table:table data="${people}" id="l_com_stratpoint_javajunior_Person" path="/people" typeIdFieldName="id_" z="69U+1PWNFTiXOMB2PsJaIeh+j+0=">
+            <table:column id="c_com_stratpoint_javajunior_Person_id" property="id" z="9nWcoIMWkmua0k2LJDokQ8yAe+c="/>
+            <table:column id="c_com_stratpoint_javajunior_Person_active" property="active" z="6gTNEEit0be/F10UzajEMECc08M="/>
+            <table:column id="c_com_stratpoint_javajunior_Person_blocked" property="blocked" z="eoSSq2meFyoZ9SMfNalO5zyNjyQ="/>
+            <table:column id="c_com_stratpoint_javajunior_Person_balance" property="balance" z="6tDJJixImF2uhgGbwntJWNWfYiA="/>
+            <table:column id="c_com_stratpoint_javajunior_Person_picture" property="picture" z="Re6gPioXr8rMTiEO6LNn49ltBfY="/>
+            <table:column id="c_com_stratpoint_javajunior_Person_age" property="age" z="X7H5aWYVWIhFl7rMRdmf3MApGkY="/>
+        </table:table>
+    </page:list>
+</div>
